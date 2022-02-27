@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -33,7 +36,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -48,7 +51,7 @@
     <section class="jumbotron text-center">
       <img src="img/profile/profile.png" alt="Aril Ramadani" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Aril Ramadani</h1>
-      <p class="lead">Student | Junior Programmer | Gamer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -68,10 +71,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ipsam quasi perferendis itaque nulla incidunt commodi exercitationem fugit distinctio voluptas.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam magnam nemo dolor provident cum neque, fugit debitis tenetur in possimus nisi tempore libero assumenda!</p>
           </div>
         </div>
@@ -86,25 +89,25 @@
     </section>
     <!-- Akhir About -->
 
-    <!-- Gallery -->
-    <section id="gallery">
+    <!-- Projects -->
+    <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Gallery</h2>
+            <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="/img/project/keyboard1.jpg" class="card-img-top" alt="Projects 1" />
-              <div class="card-body">
+            <div class="card-body">
+              <div class="card" data-aos="flip-left" data-aos-duration="500">
+                <img src="/img/project/keyboard1.jpg" class="card-img-top" alt="Projects 1" />
                 <p class="card-text text-center"><a href="https://unsplash.com/photos/ycZjz2Uw6VY" target="_blank">Mechanical Keyboard with dsa keycaps</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="/img/project/pc2.jpg" class="card-img-top" alt="Projects 2" />
               <div class="card-body">
                 <p class="card-text text-center"><a href="https://unsplash.com/photos/Gvm2wM3V5PA" target="_blank">Home Workspace</a></p>
@@ -112,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="/img/project/keyboard2.jpg" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
                 <p class="card-text text-center"><a href="https://unsplash.com/photos/U1I0IoQx3Yo" target="_blank">Mechanical Keyboard</a></p>
@@ -120,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="/img/project/pc3.jpg" class="card-img-top" alt="Projects 4" />
               <div class="card-body">
                 <p class="card-text text-center"><a href="https://unsplash.com/photos/hluitBPPJBI" target="_blank">Gaming Setup</a></p>
@@ -128,7 +131,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img src="/img/project/keyboard3.jpg" class="card-img-top" alt="Projects 5" />
               <div class="card-body">
                 <p class="card-text text-center"><a href="https://unsplash.com/photos/aXY5doQNZTc" target="_blank">Yellow Splash</a></p>
@@ -146,6 +149,70 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/1.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/2.jpg" alt="Gambar 2" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/3.jpg" alt="Gambar 3" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/4.jpg" alt="Gambar 4" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/5.jpg" alt="Gambar 5" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/6.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/7.jpg" alt="Gambar 7" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/8.jpg" alt="Gambar 8" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/9.jpg" alt="Gambar 9" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumbnail/10.jpg" alt="Gambar 10" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -195,10 +262,35 @@
 
     <!-- Footer -->
     <footer class="bg-primary text-white text-center pb-3">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/aril_ramadani24/" class="text-white fw-bold">Aril Ramadani</a></p>
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/aril_ramadani24/" target="_blank" class="text-white fw-bold">Aril Ramadani</a></p>
     </footer>
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Student | Junior Programmer | Gamer" });
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxTUAnYn3bXkqVtre2C9fIsmHAj2BgkGuGRkPNu_zZ5rgYvVpgoKWx-d5Y_Roti9bM/exec";
